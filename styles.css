@@ -1,0 +1,186 @@
+html {
+  font-size: 20px;
+}
+
+body {
+  background: #000;
+  color: #daa520;
+  background-image: url("./images/LogoTransparencia.png");
+  background-size: 65%;
+  background-attachment: fixed;
+  background-position: top;
+  box-sizing: border-box;
+}
+
+#portada {
+  width: 100vw;
+}
+
+.logo-titulo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  background-color: #400eb4;
+  padding: 10px;
+  border: 2px solid #daa520;
+  box-sizing: border-box;
+  position: sticky;
+  transition: left 1s cubic-bezier(0.63, 0.11, 0.25, 0.89) 2s;
+}
+
+.nav_logo {
+  width: 60px;
+  border: 2px solid #daa520;
+  border-radius: 10px;
+  filter: drop-shadow(0px 0px 3px #daa520);
+}
+
+.navbar_text {
+  margin: 10px;
+}
+
+.navigation {
+  display: inline-block;
+  width: 84px;
+  color: #ffcfdf;
+  font-family: lato;
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: 700;
+  list-style-type: none;
+  padding: 2px 10px;
+  text-align: center;
+}
+
+.navigation:hover {
+  border-radius: 5px;
+  border: 3px solid #daa520;
+  box-shadow: 0 0 45px #ffffffd4;
+}
+
+a {
+  text-decoration: none;
+  color: #daa520;
+}
+
+h1 {
+  font-family: lobster;
+  color: #ffcfdf;
+  font-size: 3.5rem;
+  letter-spacing: 8px;
+  font-weight: 100;
+  text-align: center;
+}
+
+.subtitles {
+  font-size: 2rem;
+  font-family: lato;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 30px;
+  text-wrap: pretty;
+}
+
+li {
+  font-size: 1rem;
+}
+
+section {
+  width: 600px;
+  margin: auto;
+}
+
+.img-items {
+  width: 600px;
+  max-width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 0 15px 0 #daa520;
+}
+
+form {
+  background-color: transparent;
+  padding: 20px 0;
+  max-width: 500px;
+  margin: auto; /* centrar */
+  box-shadow: 0 0 55px #fff2;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.form_title {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.form_input {
+  padding: 6px 20px;
+}
+
+input,
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 6px 8px;
+  border: none; /* especificar propiedades a 0 */
+  border: 1px solid #daa520;
+  box-shadow: 0 0 15px #0003;
+  background-color: transparent;
+  border-radius: 4px;
+  color: #daa520;
+}
+
+/* TEXTAREA */
+textarea {
+  min-width: 100%;
+  resize: none;
+  min-height: 102px;
+  font-family: sans-serif;
+}
+
+/* LABELS */
+label {
+  font-size: 0.95em;
+  line-height: 2;
+}
+
+.checkbox {
+  width: auto;
+  height: 10px;
+}
+
+.submit {
+  color: #daa520;
+}
+
+footer {
+  background-color: #400eb4;
+  padding: 30px;
+  padding-right: 10px;
+  margin: 10px;
+  text-align: center;
+  border: 2px solid #daa520;
+  font-family: lato;
+}
+
+.foot {
+  padding-bottom: 20px;
+}
+
+.foot > a:link {
+  color: #dda413;
+}
+
+.foot > a:visited {
+  color: #e9efb2;
+}
